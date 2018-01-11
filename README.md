@@ -67,7 +67,7 @@ TouchableHighlight,
 NativeEventEmitter
 } from 'react-native';
 
-import XunFei from 'react-native-xunfei';
+import XunFei from 'react-native-xunfei-speechrecognizer';
 
 let appid = '5a531707';
 
