@@ -1,4 +1,4 @@
-# react-native-xunfei
+# react-native-xunfei-speechrecognizer
 
 功能：
 通过使用讯飞SDK实现语音听写功能。
@@ -12,12 +12,22 @@ appid是第三方应用集成讯飞开放平台SDK的身份标识，由于SDK静
 
 参考：https://reactnative.cn/docs/0.50/linking-libraries-ios.html#content
 
-1、添加react-native-xunfei插件到你工程的node_modules文件夹下
+手动添加：
+
+1、添加react-native-xunfei-speechrecognizer插件到你工程的node_modules文件夹下
 
 2、添加xunfei库中的.xcodeproj文件在你的工程中
 
 3、点击你的主工程文件，选择Build Phases，然后把刚才所添加进去的.xcodeproj下的Products文件夹中的静态库文件（.a文件），拖到Link Binary With Libraries组内。
 
+自动添加：
+```
+npm install react-native-xunfei-speechrecognizer --save
+或
+yarn add react-native-xunfei-speechrecognizer
+
+react-native link
+```
 
 三、开发环境配置
 
