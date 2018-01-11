@@ -1,22 +1,23 @@
 {
   "name": "react-native-xunfei-speechrecognizer",
-  "version": "0.0.1",
-  "description": " xunfei For React Native",
+  "version": "1.0.0",
+  "description": " xunfei-speechrecognizer For React Native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhoumeitong/react-native-xunfei.git"
+    "url": "git+https://github.com/zhoumeitong/react-native-xunfei-speechrecognizer.git"
   },
   "keywords": [
+    "xunfei",
     "SpeechRecognizer"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zhoumeitong/react-native-xunfei/issues"
+    "url": "https://github.com/zhoumeitong/react-native-xunfei-speechrecognizer/issues"
   },
-  "homepage": "https://github.com/zhoumeitong/react-native-xunfei#readme"
+  "homepage": "https://github.com/zhoumeitong/react-native-xunfei-speechrecognizer#readme"
 }
